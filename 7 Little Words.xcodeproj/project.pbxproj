@@ -13,6 +13,8 @@
 		2C08ABAC2BA45CCC00E013D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C08ABAA2BA45CCC00E013D2 /* Main.storyboard */; };
 		2C08ABAE2BA45CCF00E013D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C08ABAD2BA45CCF00E013D2 /* Assets.xcassets */; };
 		2C08ABB12BA45CCF00E013D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C08ABAF2BA45CCF00E013D2 /* LaunchScreen.storyboard */; };
+		2C08ABBE2BA46CF600E013D2 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2C08ABBC2BA46CF600E013D2 /* level1.txt */; };
+		2C08ABBF2BA46CF600E013D2 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2C08ABBD2BA46CF600E013D2 /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2C08ABAD2BA45CCF00E013D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C08ABB02BA45CCF00E013D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C08ABB22BA45CCF00E013D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C08ABBC2BA46CF600E013D2 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = level1.txt; path = ../../../../../Downloads/level1.txt; sourceTree = "<group>"; };
+		2C08ABBD2BA46CF600E013D2 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = level2.txt; path = ../../../../../Downloads/level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		2C08ABA32BA45CCC00E013D2 /* 7 Little Words */ = {
 			isa = PBXGroup;
 			children = (
+				2C08ABBC2BA46CF600E013D2 /* level1.txt */,
+				2C08ABBD2BA46CF600E013D2 /* level2.txt */,
 				2C08ABA42BA45CCC00E013D2 /* AppDelegate.swift */,
 				2C08ABA62BA45CCC00E013D2 /* SceneDelegate.swift */,
 				2C08ABA82BA45CCC00E013D2 /* ViewController.swift */,
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C08ABBF2BA46CF600E013D2 /* level2.txt in Resources */,
 				2C08ABB12BA45CCF00E013D2 /* LaunchScreen.storyboard in Resources */,
+				2C08ABBE2BA46CF600E013D2 /* level1.txt in Resources */,
 				2C08ABAE2BA45CCF00E013D2 /* Assets.xcassets in Resources */,
 				2C08ABAC2BA45CCC00E013D2 /* Main.storyboard in Resources */,
 			);
@@ -307,9 +315,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.incandesc3nce.--Little-Words";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -335,9 +347,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.incandesc3nce.--Little-Words";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
